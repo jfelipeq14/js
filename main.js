@@ -10,13 +10,13 @@ var fecha = new Date(); // Object
 var simbolo = Symbol("mi simbolo"); // Symbol
 
 // Arrays
-var frutas = ["manzana", "pera", "uva"]; // Array
+const frutas = ["manzana", "pera", "uva"]; // Array
 
 // Objetos
 var fruta = {nombre: "Manzana", color: "Roja"}; // Object
 
 // Arrays de objetos
-var frutasArrayObject = [
+let frutasArrayObject = [
     {nombre: "Manzana", color: "Roja"},
     {nombre: "Pera", color: "Verde"}
 ]; // Array de objetos
