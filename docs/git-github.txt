@@ -1,0 +1,35 @@
+----comandos de git & github----
+
+--CLONE REPOSITORY--
+git clone {link} => clonar un repositorio
+
+cd {nombreRepo}
+
+--CREATE BRANCH TO WORK--
+git checkout -b {nombre de rama} => crear rama para trabajar
+
+--UPLOAD CHANGES--
+
+git add . => agregar todos los cambios
+
+git commit -m "{mensaje}" => agregar un mensaje para saber que cambios hice
+
+git push origin {nombre rama} => subir los cambios a la nube (github)
+
+in github:
+
+boton: compare and pull request => add description especified what change completed => create pull
+
+--GET CHANGES--
+
+En github (el repo que esta usando): synk fork => update branch
+
+En terminal (ctrl + j) de vscode:
+
+git checkout develop => cambiar a la rama de los cambios
+
+git fetch origin develop => revisar si hay cambios
+
+git pull origin develop => obtener los cambios
+
+repeat process without "cloning repository" that is, from "creating branch"
