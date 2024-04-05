@@ -1,29 +1,121 @@
-Crear una funcion que reciba dos numeros y devuelva el mayor de ellos.
+1- Crear una funcion que reciba dos numeros y devuelva el mayor de ellos.
 
-Crea un funcion que reciba un numero y devueva si es par o impar.
+2- Crea un funcion que reciba un numero y devuelva si es par o impar.
 
-Crea una funcion que reciba tres numeros como parametros y devuelva su promedio.
+3- Crea una funcion que reciba tres numeros como parametros y devuelva su promedio.
 
-Crea una funcion que calcula la longitud de una palabra si es corta o larga.
+4- Crea una funcion que calcula la longitud de una palabra si es corta o larga.
 
-Crea una funcion para calcular cuantas silabas tiene cada palabra e imprimir el resultado.
+5- Crea una funcion para calcular cuantas silabas tiene cada palabra e imprimir el resultado.
 
-Crea una funcion que genere la tabla de multiplicar de n, pero que no se muestre la multiplicacion x5.
+6- Crea una funcion que genere la tabla de multiplicar de n, pero que no se muestre la multiplicacion x5.
 
-Crea una funcion que devuelva el elemento mayor de un arreglo de numeros.
+7- Crea una funcion que devuelva el elemento mayor de un arreglo de numeros.
 
-Crea una funcion que tome una cade como parametro y devuelva la cadena en orden inverso, por ejemplo, si la cadena de entrada es "hola", la funcion deberia devolver "aloh".
+8- Crea una funcion que tome una cade como parametro y devuelva la cadena en orden inverso, por ejemplo, si la cadena de entrada es "hola", la funcion deberia devolver "aloh".
 
-Crea una funcion para validar un pin que acepta 4 o 6 caracteres de longitud, solo numeros, la funcion debe devolver true si el pin es valido o false si no es.
+9- Crea una funcion para validar un pin que acepta 4 o 6 caracteres de longitud, solo numeros, la funcion debe devolver true si el pin es valido o false si no es.
 
-Genera unpatron de asteriscos en forma de piramide dependiendo una cantidad de filas.
+10- Genera un patron de asteriscos en forma de piramide dependiendo una cantidad de filas.
 
-Obtiene una serie de numeros y devuelve la suma de todos los positivos. si no hay nada que sumar, la suma predeterminada es 0.
+11- Obtiene una serie de numeros y devuelve la suma de todos los positivos. si no hay nada que sumar, la suma predeterminada es 0.
 
-Implemente una funcion que sume dos numeros y devuelva su suma en binario, el numero binario devuelvo debe ser una cadena.
+12- Implemente una funcion que sume dos numeros y devuelva su suma en binario, el numero binario devuelvo debe ser una cadena.
 
-Escriba una funcion que tome una cadena y devuelva una nueva cadena sin todas las vocales.
+13- Escriba una funcion que tome una cadena y devuelva una nueva cadena sin todas las vocales.
 
-Crea una funcion que tome un conjunto de numeros y devuelve el inverso aditivo de cada uno, todo lo positivo se vuelve negativo y lo negativo a positivo".
+14 - Crea una funcion que tome un conjunto de numeros y devuelve el inverso aditivo de cada uno, todo lo positivo se vuelve negativo y lo negativo a positivo".
 
-Escribe una funcion que haga de forma aleatoria un numero entre 1 a 10 y verifica si es numero par o impar.
+15- Escribe una funcion que haga de forma aleatoria un numero entre 1 a 10 y verifica si es numero par o impar.
+
+16- Crea una funcion que convierta numeros del 0 al 5 en su representacion textual, por ejemplo, "cero", "uno", "dos", etc...
+
+17- Crea una funcion que cuente el numero de ovejas presentes en la matriz (true significa presentes). algunas ovejas pueden falta en su lugar. El array es el siguiente:
+const sheepArray = [true, false, true, false, true, true, true, false, false, true, false, true, true, false, true, false]
+
+PASTEL: sheep && Array.array(sheep){sheep.forEach((isPresent)=>{})}. 
+
+18- Devuelve una matriz, donde el primer elemento es el recuento de numeros positivos y el segundo elemento es la suma de los numeros negativos. 0 no es ni positivo ni negativo
+
+input = [1,2,5,-5,-2,-7,-1,2,-6,2,-9,8]
+
+19- Crea una funcion que ropa la tripa del camello utilizando un espacio entre las palabras.
+
+20- Crea una funcion para filtrar un objeto que tenga una propiedad especifica que cumpla con un criterio determinado. Por ejemplo, un objeto que tenga un atributo "edad" mayor que la edad minima: 18
+
+let arrayObject = [
+    {nombre: "juan", edad: 22},
+    {nombre: "felipe", edad: 32},
+    {nombre: "brayan", edad: 18},
+    {nombre: "pablo", edad: 23},
+    {nombre: "alan", edad: 25},
+    {nombre: "anderson", edad: 10},
+]
+
+21- Crea una funcion que realice cuatro operaciones matematicas basicas. La funcion debe tomar tres argumentos: operacion (String/Char), valor1 (number), valor2 (number)
+
+22- Escribe una funcion para convertir un nombre en iniciales. Este requiere estrictamente dos palabras con un espacio entre ellas. El resultado debe ser dos letras mayusculas separadas por un punto
+
+23- Crea una funcion que agrege la informacion de un arreglo a una tabla si el elemento esta habilitado o su estado es true
+
+Nota: terminar de llenar los campos vacios
+info: [
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: 'urlDeImagen',
+        habilitado: true
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: false
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: true
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: true
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: false
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: false
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: true
+      }
+    ]
+
+24- Extraer la informacion de un formulario con el evento submit y validar que no este vacia para realizar un login simple donde se muestre la informacion del usuario logeado en una alerta, validando la informacion de un array de objetos:
+users = [
+    {username: "root" password: "root"},
+    {username: "nico" password: "123"},
+    {username: "name" password: "098"},
+]
+
+25- Crear una funcion que permita cambiar el color del fondo de la pantalla de blanco a negro y de negro a blanco
