@@ -1,1 +1,87 @@
-<script src="./index.js"></script>
+<!-- <script src="./index.js"></script> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form action="">
+    <input type="text" id="username">
+    <input type="password" id="password">
+</form>
+<body>
+    <table>
+        <thead>
+            
+        </thead>
+        <tbody id="table_content"></tbody>
+    </table>
+    <script>
+        info: [
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: 'urlDeImagen',
+        habilitado: true
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: false
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: true
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: true
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: false
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: false
+      },
+      {
+        id: crypto.randomUUID(),
+        nombre: '',
+        descripcion: '',
+        url: '',
+        habilitado: true
+      }
+    ]
+    const $table_content = document.getElementById("table-content")
+    concole.log($table_content);
+    info.array.forEach(element => {
+        $table_content.innerHTML += `
+        <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Description</th>
+                <th>Url</th>
+            </tr>
+    
+            `
+    });
+    </script>
+</body>
+</html>
